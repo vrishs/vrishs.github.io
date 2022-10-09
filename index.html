@@ -12,7 +12,7 @@
     <title>Document</title>
 
     <!-- Link to my style sheet -->
-    <link rel="stylesheet" href="index2.css">
+    <link rel="stylesheet" href="index3.css">
 
     <!--The next three lines allow the Vega embed-->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
@@ -25,7 +25,9 @@
 <body>
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
     <div class="myWeek1">
-        <h1>Data Science for Economists.</h1>
+        <h1>Data Science with Vrish.</h1>
+
+        <h2>Week 1</h2>
         
         <h3>Covid-19</h3>
         <p>The first chart tracks Covid-19 cases by UK region.</p>
@@ -35,11 +37,18 @@
         <p>My second chart looks at productivity in the UK</p>
         <div class="chart" id="Chart2"> </div>
     
-        <h1>Week 2</h1>
+        <h2>Week 2</h2>
         
         <h3>IMF Credit Lending Chart</h3>
         <p>My attempt at recreating the FT chart on the IMF data.</p>
         <div class="chart" id="Chart3"> </div>
+
+        <h3>IMF Credit Lending in relative to global gdp</h3>
+        <p>1984 seems the worst due to the ratio being the highest</p>
+        <div class="chart" id="Chart4"> </div>
+
+
+
     </div> 
 </body>
 
@@ -49,13 +58,15 @@
     var myChart1 = "chart1_covidUKRegions.json";
     var myChart2 = "chart2_ukProductivity.json";
     var myChart3 = "imflending.json";
+    var myChart4 = "IMF_lending_relative_to_GDP.json";
+
 
     // Embed charts:
     vegaEmbed('#Chart1', myChart1);
     vegaEmbed('#Chart2', myChart2);
     vegaEmbed('#Chart3', myChart3);
+    vegaEmbed('#Chart4', myChart4);
+
 </script>
 
 </html>
-
-
