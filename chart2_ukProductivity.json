@@ -22,7 +22,7 @@
     "type": "line",
     "point": false,
     "interpolate": "monotone",
-    "color": "blueviolet"
+    "color": "rgb(0,47,167)"}",
   },
   
   "encoding": {
