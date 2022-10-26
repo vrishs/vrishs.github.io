@@ -29,7 +29,7 @@ h1, h3, p{
     background-color: rgb(255, 253, 253);
 
       
-    border-width: 10px;
+    border-width: 6px;
     border-style: solid;
     border-radius: 10px;
     border-color: rgb(49, 183, 255);
@@ -39,10 +39,11 @@ h1, h3, p{
 /* Set the apperance of the class, chart */
 .chart{
     background-color: rgb(255, 255, 255);
-    width:500px;
+    width: 425px;
     border-width: 8px;
     border-style: solid;
     border-radius: 6px;
     border-color: rgb(255, 250, 250);
     
 }
+    
