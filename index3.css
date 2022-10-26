@@ -12,7 +12,7 @@
 /* Book on colour = Joseph Albers - Interaction of Colour */
 
 body{
-    background-color: rgb(200,200,200);
+    background-color: rgb(225, 58, 58);
  }
 
 
@@ -25,25 +25,25 @@ h1, h3, p{
     
 .myWeek1{
     margin: auto;
-    max-width: 600px;
-    background-color: rgb(220, 220, 220);
+    max-width: 1000px;
+    background-color: rgb(255, 253, 253);
 
       
-    border-width: 3px;
+    border-width: 10px;
     border-style: solid;
     border-radius: 10px;
-    border-color: rgb(100,100,100);
+    border-color: rgb(49, 183, 255);
 }
 
 
 /* Set the apperance of the class, chart */
 .chart{
-    background-color: white;
-    width:450px;
-    border-width: 2px;
+    background-color: rgb(255, 255, 255);
+    width:500px;
+    border-width: 8px;
     border-style: solid;
-    border-radius: 10px;
-    border-color: grey;
+    border-radius: 6px;
+    border-color: rgb(255, 250, 250);
     
 }
     
