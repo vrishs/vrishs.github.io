@@ -7,8 +7,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <a href="index.html" id="link3">Home</a>
-    
+
+
+   
+    <a href="index.html" id="link3">Home</a>
     
     <!-- Title for the page -->
     <title>Document</title>
@@ -26,6 +28,7 @@
 
 <body>
     <!-- A div that contains a group of items for week 1. Can be useful for setting background colours etc.  -->
+  
     <div class="myWeek1">
         <h1>Data Science with Vrish.</h1>
 
@@ -56,6 +59,10 @@
 
          <h3>GDP Per Capita Line Chart- Improved Visual Experience</h3>
          <div class="chart" id="Chart6"> </div>
+
+         <h2>Week 4</h2>
+        <h3>Premier League Titles Won</h3>
+         <div class="chart" id="Chart7"> </div>
         
     
     </div> 
@@ -70,6 +77,7 @@
     var myChart4 = "IMF_lending_relative_to_GDP.json";
     var myChart5 = "GDP_Per_Cap_Bar_Chart.json";
     var myChart6 = "GDP_Per_Cap_Line_Chart.json";
+    var myChart7 = "PremierLeagueScrape.json";
 
 
     // Embed charts:
@@ -79,6 +87,7 @@
     vegaEmbed('#Chart4', myChart4);
     vegaEmbed('#Chart5', myChart5);
     vegaEmbed('#Chart6', myChart6);
+    vegaEmbed('#Chart7', myChart7);
 
 </script>
 
