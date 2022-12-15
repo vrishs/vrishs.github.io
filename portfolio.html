@@ -8,7 +8,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-
    
     <a href="index.html" id="link3">Home</a>
     
@@ -16,7 +15,7 @@
     <title>Document</title>
 
     <!-- Link to my style sheet -->
-    <link rel="stylesheet" href="index3.css">
+    <link rel="stylesheet" href="portfolio.css">
 
     <!--The next three lines allow the Vega embed-->
     <script src="https://cdn.jsdelivr.net/npm/vega@5.17.0"></script>
@@ -36,7 +35,7 @@
         
         <h3>Covid-19</h3>
         <p>The first chart tracks Covid-19 cases by UK region.</p>
-        <div class="chart" id="Chart1"> </div>
+        <div class="Chart1" id="Chart1"> </div>
 
         <h3>Productivity puzzle</h3>
         <p>My second chart looks at productivity in the UK</p>
@@ -51,6 +50,7 @@
         <h3>IMF Credit Lending in relative to global gdp</h3>
         <p>1984 seems the worst due to the ratio being the highest</p>
         <div class="chart" id="Chart4"> </div>
+        
 
 
         <h2>Week 3</h2>
@@ -70,35 +70,28 @@
         
         
      <h2>Week 5</h2>
+
+     <div class ="myWeek5"></div>
          <h3>ONS API Data</h3>
-            <table>
-                <tr>
-                  <td><div class="chart" id="Chart8"></div></td>
-                  <td><div class="chart" id="Chart9"></div></td> 
-                  <td><div class="chart" id="Chart10"></div></td>
-                </tr>
-                <tr>
-                  <td><div class="chart" id="Chart11"></div></td>
-                  <td><div class="chart" id="Chart12"></div></td> 
-                  <td><div class="chart" id="Chart13"></div></td>
-                </tr>
-                <tr>
-                  <td><div class="chart" id="Chart14"></div></td>
-                  <td><div class="chart" id="Chart15"></div></td> 
-                  <td><div class="chart" id="Chart16"></div></td>
-                </tr>
-            </table>        
-    
-
+  
+         <div class="chartw5" id="Chart8"></div>
+         <div class="chartw5" id="Chart9"></div>
+         <div class="chartw5" id="Chart10"></div>
+         <div class="chartw5" id="Chart11"></div>
+         <div class="chartw5" id="Chart12"></div>
+         <div class="chartw5" id="Chart13"></div>
+         <div class="chartw5" id="Chart14"></div>
+         <div class="chartw5" id="Chart15"></div>
+         <div class="chartw5" id="Chart16"></div>
+        
+        
+        
+<h2>Week 7</h2>
+            <div class="chart" id="Chart17"> </div>
+            <div class="chart" id="Chart18"> </div>
 
     
-        <h2>Week 7</h2>
-            <h3>London Borough</h3>
-             <div class="chart" id="Chart17"> </div>
-    
-             <h3>Job Density per London borough</h3>
-             <div class="chart" id="Chart18"> </div>
-    
+        
 
         
     
@@ -115,11 +108,8 @@
     var myChart5 = "GDP_Per_Cap_Bar_Chart.json";
     var myChart6 = "GDP_Per_Cap_Line_Chart.json";
     var myChart7 = "PremierLeagueScrape.json";;
-    
-    
     var myChart8 = "ReduncyRate.json";
-    var myChart30 = "SicknessInactivty.json"
-
+    var myChart9 = "SicknessInactivity.json"
     var myChart10 = "WalesEmployment.json";
     var myChart11 = "EmployedMales.json";
     var myChart12 = "StudentsInactiveMale.json";
@@ -127,9 +117,9 @@
     var myChart14 = "FemEmpsUK.json";
     var myChart15 = "EconActiveMale.json"
     var myChart16 = "WomenSelfEmp.json"
+    var myChart17 = "LONDONMAP.json"
+    var myChart18 = "LondonJobDensityMap.json"
     
-    var myChart17 = "LONDONMAP.json";
-    var myChart18 = "LondonJobDensityMap.json";
 
 
     // Embed charts:
@@ -147,10 +137,11 @@
     vegaEmbed('#Chart12', myChart12);
     vegaEmbed('#Chart13', myChart13);
     vegaEmbed('#Chart14', myChart14);
-    vegaEmbed('#Chart15', myChar15);
+    vegaEmbed('#Chart15', myChart15);
     vegaEmbed('#Chart16', myChart16);
     vegaEmbed('#Chart17', myChart17);
     vegaEmbed('#Chart18', myChart18);
+   
 
 
 </script>
