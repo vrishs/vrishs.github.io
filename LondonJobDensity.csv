@@ -1,0 +1,54 @@
+﻿Code,Borough,2020
+,,
+E09000001,City of London,83.71
+E09000002,Barking and Dagenham,0.52
+E09000003,Barnet,0.64
+E09000004,Bexley,0.54
+E09000005,Brent,0.69
+E09000006,Bromley,0.62
+E09000007,Camden,1.97
+E09000008,Croydon,0.58
+E09000009,Ealing,0.72
+E09000010,Enfield,0.59
+E09000011,Greenwich,0.52
+E09000012,Hackney,0.76
+E09000013,Hammersmith and Fulham,1.29
+E09000014,Haringey,0.51
+E09000015,Harrow,0.57
+E09000016,Havering,0.60
+E09000017,Hillingdon,1.03
+E09000018,Hounslow,0.95
+E09000019,Islington,1.32
+E09000020,Kensington and Chelsea,1.41
+E09000021,Kingston upon Thames,0.76
+E09000022,Lambeth,0.73
+E09000023,Lewisham,0.39
+E09000024,Merton,0.71
+E09000025,Newham,0.55
+E09000026,Redbridge,0.45
+E09000027,Richmond upon Thames,0.80
+E09000028,Southwark,1.33
+E09000029,Sutton,0.63
+E09000030,Tower Hamlets,1.32
+E09000031,Waltham Forest,0.46
+E09000032,Wandsworth,0.61
+E09000033,Westminster,3.93
+,,
+E12000001,North East,0.71
+E12000002,North West,0.82
+E12000003,Yorkshire and The Humber,0.79
+E12000004,East Midlands,0.79
+E12000005,West Midlands,0.80
+E12000006,East,0.85
+E12000007,London,0.99
+E12000008,South East,0.86
+E12000009,South West,0.88
+,,
+W92000004,Wales,0.76
+S92000003,Scotland,0.80
+N92000002,Northern Ireland,0.78
+E92000001,England,0.85
+,,
+K04000001,England and Wales,0.85
+K03000001,Great Britain,0.84
+K02000001,United Kingdom,0.84
