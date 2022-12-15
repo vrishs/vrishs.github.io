@@ -5,8 +5,8 @@
     "height": 500,
 
     "title":{
-      "text":"England",
-      "subtitle": ["England by Local Authority Area"],
+      "text":"India",
+      "subtitle": ["India by states"],
       "subtitleFontStyle": "italic",
       "subtitleFontSize": 10,
       "anchor": "start",
@@ -16,7 +16,7 @@
     },
   
     "data":{
-      "url": "https://raw.githubusercontent.com/martinjc/UK-GeoJSON/master/json/administrative/eng/lad.json",
+      "url": "https://raw.githubusercontent.com/vrishs/vrishs.github.io/main/india.json",
       "format":{
        
         "property":"features"}},
@@ -36,7 +36,7 @@
 
       "encoding": {
         "tooltip":[{
-          "field":"properties.LAD13NM", "type": "nominal", "title":"Local Authority District"
+          "field":"properties", "type": "nominal", "title":"State Name"
 
 
 

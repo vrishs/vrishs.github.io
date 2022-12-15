@@ -1,0 +1,75 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "width" : 500,
+    "height": 500,
+
+    "title":{
+      "text":"London",
+      "subtitle": ["London by Borough"],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "#010001",
+      "subtitleColor": "#000000"
+
+    },
+  
+    "data":{
+      "url": "https://raw.githubusercontent.com/vrishs/vrishs.github.io/main/london_boroughs.json",
+      "format":{
+       
+        "property":"features"}},
+
+        "projection": {
+          "type":"mercator"
+        },
+
+       
+     "transform": [
+      {
+        "lookup": "properties.name",
+  
+        "from":{
+          "data":{
+            "url": "https://raw.githubusercontent.com/vrishs/vrishs.github.io/main/LondonJobDensity.csv"},
+            "key": "Borough",
+            "fields": ["2020"]
+          }
+        }
+      
+    ],
+       
+      "mark":{
+        "type": "geoshape",
+              "stroke":"black",
+      "strokeWidth": 0.5
+      
+    
+ 
+
+      },
+
+      "encoding": {
+              "color":{ 
+        "field":"2020",
+         "type": "quantitative"},
+
+
+       
+        "tooltip":[{
+          "field":"properties.name", "type": "nominal",  
+           "title":"Borough"},    
+      {"field":"2020", "title":"Job Density"}
+          
+
+
+
+
+
+        
+
+        ]
+      }
+      
+      } 
