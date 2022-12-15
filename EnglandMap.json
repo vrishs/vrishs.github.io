@@ -1,0 +1,42 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  
+    "width" : 500,
+    "height": 500,
+
+    "title":{
+      "text":"England",
+      "subtitle": ["England by Admministritive Regions"],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "#010001",
+      "subtitleColor": "#000000"
+
+    },
+  
+    "data":{
+      "url": "https://raw.githubusercontent.com/martinjc/UK-GeoJSON/master/json/administrative/eng/lad.json",
+      "format":{
+       
+        "property":"features"}},
+
+        "projection": {
+          "type":"mercator"
+        },
+
+       
+      "mark":{
+        "type": "geoshape",
+              "stroke":"black",
+      "strokeWidth": 0.5,
+      "fill":"lightblue"
+
+      
+
+
+        }
+
+        
+      }
+    
