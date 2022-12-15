@@ -1,5 +1,6 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
     "description": "A simple bar chart with embedded data.",
   "title": {
       "text": "Premier League titles won",
@@ -22,7 +23,7 @@
       "color": "rgb(0,47,167)"},
     "encoding": {
       "x": {"field": "Titles", "type": "quantitative", "axis": {"labelAngle": 0}},
-      "y": {"field": "Club", "type": "Nominal"}
+      "y": {"field": "Club", "type": "nominal","sort": "quantitative"}
     }
   }
   
