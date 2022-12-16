@@ -1,0 +1,23 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "data": {
+      "url": "https://raw.githubusercontent.com/vrishs/vrishs.github.io/main/data_ONS-LF69.json",
+      "format": {"type": "json", "property": "years"}
+    },
+   "title": {
+        "text": "Economically Inactive: Sickness: UK",
+        "fontSize": 11,
+        "subtitle": "16-64 years",
+        "anchor": "start",
+        "color": "black"
+      },
+    "width": 150,
+    "height": 150,
+    "mark": {
+      "type": "line",
+      "color": "rgb(0,47,167"},
+    "encoding": {
+      "x": {"field": "date", "type": "temporal","axis": {"grid": false}, "title": "Year"},
+      "y": {"field": "value", "type": "quantitative","axis": {"grid": false}, "title": "People (000s)"}
+    }
+  }
