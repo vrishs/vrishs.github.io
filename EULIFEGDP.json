@@ -1,0 +1,86 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Life Expectancy by GDP per capita EU",
+      "subtitle": [
+        "Scatter of Life Expectancy at birth vs GDP per capita. Source: Eurostat"
+      ],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "height": 350,
+    "width": 350,
+    "config": {"background": "white", "view": {"stroke": "transparent"}},
+    "data": {
+      "url": "https://raw.githubusercontent.com/vrishs/vrishs.github.io/main/EULIFEGDPDATA1.csv"
+    },
+    "layer": [
+      {
+        "mark": {"type": "circle", "color": "orange", "opacity": 1},
+        "encoding": {
+          "x": {
+            "field": "GDP Per Capita",
+            "type": "quantitative",
+            "title": "GDP Per Capita €s"
+          },
+          "y": {
+            "field": "Life Expectancy",
+            "type": "quantitative",
+            "title": "Life Expectancy"
+          },
+          "tooltip": [
+            {"field": "Country", "type": "ordinal", "title": "State"},
+            {
+              "field": "GDP Per Capita",
+              "type": "quantitative",
+              "title": "GDP Per Capita",
+              "format": ".0f"
+            },
+            {
+              "field":"Life Expectancy",
+              "type": "quantitative",
+              "title": "Life Expectancy",
+              "format": ".2f"
+            }
+          ]
+  
+        }
+      },
+      {
+        "mark": {"type": "line", "color": "red"},
+        "transform": [
+          {
+            "regression": "GDP Per Capita",
+            "on": "Life Expectancy"
+          }
+        ],
+        "encoding": {
+          "x": {
+            "field": "GDP Per Capita",
+            "type": "quantitative"
+          },
+          "y": {"field": "Life Expectancy", "type": "quantitative"}
+        }
+      },
+      {
+        "transform": [
+          {
+            "regression": "Life Expectancy",
+            "on": "GDP Per Capita",
+            "params": true
+          },
+          {"calculate": "'R²: '+format(datum.rSquared, '.2f')", "as": "R2"}
+        ],
+        "mark": {
+          "type": "text",
+          "color": "firebrick",
+          "x": "width",
+          "align": "right",
+          "y": -4
+        },
+        "encoding": {"text": {"type": "ordinal", "field": "R2"}}
+      }
+    ]
+}
