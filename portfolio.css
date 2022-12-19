@@ -1,6 +1,3 @@
-/* Richard Davies, Data Science for Economists */
-
-/* This is my second CSS file */
 
 body {
     
@@ -324,4 +321,19 @@ h1, h2, h3, p{
                align-items:flex-end;
            border-bottom: 50px;
              margin-bottom: 50px;}
+
+             #Chart22{
+                background-color: rgb(255, 255, 255);
+               width: 650px;
+                border-width: 2px;
+                 border-style: solid;
+                  border-radius: 15px;
+                border-color: grey;
+                 text-align: center;
+                     display: flex; 
+                     margin: 0 auto;
+                   align-items:flex-end;
+               border-bottom: 50px;
+                 margin-bottom: 50px;}
+    
 
