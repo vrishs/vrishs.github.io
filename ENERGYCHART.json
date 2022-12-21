@@ -4,7 +4,7 @@
       "text": "Energy Stocks",
       "subtitle": [
         "Price changes of energy stocks clustered",
-        "Shell (grey), BP (blue), Centrica (turquoise), National Grid(black),",
+        "Shell (Yellow), BP (Green), Centrica (Blue), National Grid (Light blue),",
         "Source: Yahoo Finance"
       ],
       "subtitleFontStyle": "italic",
@@ -29,8 +29,9 @@
         },
         "color": {
           "datum": {"repeat": "layer"},
-          "scale": {"range": ["#9BB7D4", "#0072B5", "#56C6A9", "#282D3C"]},
+          "scale": {"range": ["#FFD500", "#009B00", "#012973", "#77E3E7"]},
           "legend": "object"
+          
           
         }
       }
