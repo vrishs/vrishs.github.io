@@ -1,0 +1,38 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Energy Stocks",
+      "subtitle": [
+        "Price changes of energy stocks clustered",
+        "Shell (grey), BP (blue), Centrica (turquoise), National Grid(black),",
+        "Source: Yahoo Finance"
+      ],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/vrishs/vrishs.github.io/main/my_stocks2.csv"
+    },
+    "repeat": {"layer": [ "SHELL_z_norm", "BP_z_norm",  "CNA_z_norm", "NG_z_norm"]},
+    "spec": {
+      "height": 300,
+      "width": 300,
+      "mark": {"type": "line", "strokeWidth": 1},
+      "encoding": {
+        "x": {"field": "Date", "type": "temporal"},
+        "y": {
+          "field": {"repeat": "layer"},
+          "type": "quantitative",
+          "title": null
+        },
+        "color": {
+          "datum": {"repeat": "layer"},
+          "scale": {"range": ["#9BB7D4", "#0072B5", "#56C6A9", "#282D3C"]},
+          "legend": "object"
+          
+        }
+      }
+    }
+  }
