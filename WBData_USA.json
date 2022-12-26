@@ -8,7 +8,7 @@
         "sourcename": "World Development Indicators",
         "lastupdated": "2022-12-22"
     },
-    [
+   "Years" : [
         {
             "indicator": {
                 "id": "EN.ATM.CO2E.PC",
