@@ -1,0 +1,813 @@
+[
+    {
+        "page": 1,
+        "pages": 2,
+        "per_page": 50,
+        "total": 62,
+        "sourceid": "2",
+        "sourcename": "World Development Indicators",
+        "lastupdated": "2022-12-22"
+    },
+    [
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2021",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2020",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2019",
+            "value": 14.6734106066885,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2018",
+            "value": 15.2225476514566,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2017",
+            "value": 14.8232608676439,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2016",
+            "value": 15.1498852011993,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2015",
+            "value": 15.5600349639355,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2014",
+            "value": 16.0409210313094,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2013",
+            "value": 16.1111844319086,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2012",
+            "value": 15.7897826401987,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2011",
+            "value": 16.6042181730945,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2010",
+            "value": 17.4317384856241,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2009",
+            "value": 16.8086986187732,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2008",
+            "value": 18.2784944927598,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2007",
+            "value": 19.0429135193113,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2006",
+            "value": 18.9459137521463,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2005",
+            "value": 19.46926248422,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2004",
+            "value": 19.5976305014211,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2003",
+            "value": 19.5064994461044,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2002",
+            "value": 19.4455490036168,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2001",
+            "value": 20.1715306146243,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "2000",
+            "value": 20.4698066603918,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1999",
+            "value": 20.1011324541284,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1998",
+            "value": 20.2663002892835,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1997",
+            "value": 20.3308552503695,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1996",
+            "value": 19.5753802980022,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1995",
+            "value": 19.2169086443491,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1994",
+            "value": 19.2562118528766,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1993",
+            "value": 19.2183334038681,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1992",
+            "value": 19.0228603507021,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1991",
+            "value": 19.003403417648,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1990",
+            "value": 19.4073462781875,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1989",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1988",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1987",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1986",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1985",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1984",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1983",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1982",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1981",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1980",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1979",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1978",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1977",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1976",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1975",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1974",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1973",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        },
+        {
+            "indicator": {
+                "id": "EN.ATM.CO2E.PC",
+                "value": "CO2 emissions (metric tons per capita)"
+            },
+            "country": {
+                "id": "US",
+                "value": "United States"
+            },
+            "countryiso3code": "USA",
+            "date": "1972",
+            "value": null,
+            "unit": "",
+            "obs_status": "",
+            "decimal": 1
+        }
+    ]
+]
