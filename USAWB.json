@@ -1,14 +1,4 @@
 [
-    {
-        "page": 1,
-        "pages": 2,
-        "per_page": 50,
-        "total": 62,
-        "sourceid": "2",
-        "sourcename": "World Development Indicators",
-        "lastupdated": "2022-12-22"
-    },
-   "Years" : [
         {
             "indicator": {
                 "id": "EN.ATM.CO2E.PC",
@@ -809,5 +799,4 @@
             "obs_status": "",
             "decimal": 1
         }
-    ]
-]
+   ]
