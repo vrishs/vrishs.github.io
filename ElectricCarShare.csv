@@ -1,0 +1,217 @@
+﻿Country,Year,Market Share of Electric Cars
+Norway,2021,86.2
+Norway,2020,74.7
+Norway,2019,55.9
+Norway,2018,49.1
+Norway,2017,39.2
+Norway,2016,29.1
+Norway,2015,22.4
+Norway,2014,13.8
+Norway,2013,6.1
+Iceland,2021,71.7
+Iceland,2020,52.4
+Iceland,2019,22.6
+Iceland,2018,17.2
+Iceland,2017,11.7
+Iceland,2016,5.6
+Iceland,2015,3.6
+Iceland,2014,2.1
+Iceland,2013,1.3
+Sweden,2021,43.3
+Sweden,2020,32.2
+Sweden,2019,11.4
+Sweden,2018,8.2
+Sweden,2017,5.2
+Sweden,2016,3.5
+Sweden,2015,2.62
+Sweden,2014,1.53
+Sweden,2013,0.71
+Denmark,2021,35.2
+Denmark,2020,16.4
+Denmark,2019,4.2
+Denmark,2018,2
+Denmark,2017,0.6
+Denmark,2016,0.6
+Denmark,2015,2.29
+Denmark,2014,0.88
+Denmark,2013,0.29
+Finland,2021,30.8
+Finland,2020,18.1
+Finland,2019,6.9
+Finland,2018,4.7
+Finland,2017,2.57
+Finland,2016,1.2
+Finland,2015,
+Finland,2014,
+Finland,2013,
+Netherlands,2021,29.8
+Netherlands,2020,24.6
+Netherlands,2019,14.9
+Netherlands,2018,6.2
+Netherlands,2017,2.2
+Netherlands,2016,6.7
+Netherlands,2015,9.9
+Netherlands,2014,3.87
+Netherlands,2013,5.55
+Germany,2021,26
+Germany,2020,13.5
+Germany,2019,3
+Germany,2018,1.9
+Germany,2017,1.58
+Germany,2016,1.1
+Germany,2015,0.73
+Germany,2014,0.43
+Germany,2013,0.25
+Switzerland,2021,22.5
+Switzerland,2020,14.3
+Switzerland,2019,5.5
+Switzerland,2018,3.2
+Switzerland,2017,2.55
+Switzerland,2016,1.8
+Switzerland,2015,1.98
+Switzerland,2014,0.75
+Switzerland,2013,0.44
+Portugal,2021,20
+Portugal,2020,13.5
+Portugal,2019,5.7
+Portugal,2018,3.6
+Portugal,2017,1.9
+Portugal,2016,
+Portugal,2015,
+Portugal,2014,
+Portugal,2013,
+United Kingdom,2021,18.6
+United Kingdom,2020,10.7
+United Kingdom,2019,2.9
+United Kingdom,2018,2.53
+United Kingdom,2017,1.86
+United Kingdom,2016,1.37
+United Kingdom,2015,1.07
+United Kingdom,2014,0.59
+United Kingdom,2013,0.16
+Belgium,2021,18.4
+Belgium,2020,10.7
+Belgium,2019,3.2
+Belgium,2018,2.5
+Belgium,2017,2.7
+Belgium,2016,1.8
+Belgium,2015,
+Belgium,2014,
+Belgium,2013,
+France,2021,18.3
+France,2020,11.2
+France,2019,2.8
+France,2018,2.11
+France,2017,1.98
+France,2016,1.4
+France,2015,1.19
+France,2014,0.7
+France,2013,0.83
+Ireland,2021,15.7
+Ireland,2020,7.4
+Ireland,2019,4.1
+Ireland,2018,1.57
+Ireland,2017,0.72
+Ireland,2016,0.48
+Ireland,2015,0.46
+Ireland,2014,0.27
+Ireland,2013,
+Romania,2021,15.53
+Romania,2020,7.12
+Romania,2019,4.18
+Romania,2018,2.89
+Romania,2017,2.11
+Romania,2016,1.03
+Romania,2015,0.5
+Romania,2014,0.28
+Romania,2013,0.34
+China,2021,15
+China,2020,5.4
+China,2019,4.9
+China,2018,4.2
+China,2017,2.1
+China,2016,1.31
+China,2015,0.84
+China,2014,0.23
+China,2013,0.08
+Austria,2021,
+Austria,2020,9.5
+Austria,2019,3.5
+Austria,2018,2.6
+Austria,2017,2.06
+Austria,2016,1.6
+Austria,2015,0.9
+Austria,2014,
+Austria,2013,
+Italy,2021,9.3
+Italy,2020,4.3
+Italy,2019,0.6
+Italy,2018,0.26
+Italy,2017,0.1
+Italy,2016,0.08
+Italy,2015,0.09
+Italy,2014,0.08
+Italy,2013,0.07
+Spain,2021,7.8
+Spain,2020,4.8
+Spain,2019,1.4
+Spain,2018,0.9
+Spain,2017,0.6
+Spain,2016,0.32
+Spain,2015,
+Spain,2014,
+Spain,2013,
+Canada,2021,6.6
+Canada,2020,3.5
+Canada,2019,3
+Canada,2018,2.2
+Canada,2017,0.92
+Canada,2016,0.58
+Canada,2015,0.35
+Canada,2014,0.28
+Canada,2013,0.18
+New Zealand,2021,5.49
+New Zealand,2020,1.96
+New Zealand,2019,1.86
+New Zealand,2018,0.96
+New Zealand,2017,0.72
+New Zealand,2016,0.5
+New Zealand,2015,0.23
+New Zealand,2014,0.21
+New Zealand,2013,
+United States,2021,4
+United States,2020,2.2
+United States,2019,1.9
+United States,2018,2.1
+United States,2017,1.1
+United States,2016,0.9
+United States,2015,0.66
+United States,2014,0.72
+United States,2013,0.6
+Australia,2021,2.4
+Australia,2020,0.78
+Australia,2019,0.6
+Australia,2018,0.3
+Australia,2017,0.19
+Australia,2016,0.12
+Australia,2015,0.15
+Australia,2014,0.12
+Australia,2013,0.026
+Japan,2021,1
+Japan,2020,0.6
+Japan,2019,0.9
+Japan,2018,1
+Japan,2017,1.1
+Japan,2016,0.59
+Japan,2015,0.68
+Japan,2014,1.06
+Japan,2013,0.91
+Hong Kong,2021,23
+Hong Kong,2020,14
+Hong Kong,2019,5
+Hong Kong,2018,
+Hong Kong,2017,
+Hong Kong,2016,5
+Hong Kong,2015,4.84
+Hong Kong,2014,
+Hong Kong,2013,0.39
