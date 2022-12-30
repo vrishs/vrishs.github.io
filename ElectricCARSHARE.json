@@ -1,0 +1,67 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Electric Car Market Share",
+      "subtitle": [
+        "What percentage of cars are electric in each country",
+        "Source: Wikipedia"
+      ],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 11,
+      "fontSize": 16,
+      "anchor": "start",
+      "color": "black"
+    },
+    "data": {
+      "url": "https://raw.githubusercontent.com/vrishs/vrishs.github.io/main/ElectricCarShare.csv",
+      "format": {"type": "csv"}
+    },
+    "height": 500,
+    "width": "container",
+    "mark": {"type": "bar"},
+    "transform": [{"filter": "datum.Year==year"}],
+    "params": [
+      {
+        "name": "year",
+        "value": 2021,
+        "bind": {
+          "input": "range",
+          "min": 2013,
+          "max": 2021,
+          "step": 1,
+          "name": "Select year:"
+        }
+      }
+    ],
+    "encoding": {
+      "y": {
+        "field": "Country",
+        "type": "nominal",
+        "title": null,
+        "axis": {"grid": false, "labelFontSize": 11},
+        "sort": "-x"
+      },
+      "x": {
+        "field": "Market Share of Electric Cars",
+        "type": "quantitative",
+        "title": null,
+        "axis": {
+          "grid": false,
+          "titleColor": "black",
+          "titleFontSize": 13,
+          "titleFontWeight": "normal",
+          "labelFontSize": 11
+        }
+      },
+    
+      "tooltip": [
+        {"field": "Country", "type": "nominal", "title": "Country"},
+        {"field": "Year", "type": "nominal", "title": "Year"},
+        {
+          "field": "Market Share of Electric Cars",
+          "type": "quantitative",
+          "title": "Market Share of Electric Cars %"
+        }
+      ]
+    }
+  }
