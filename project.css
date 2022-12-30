@@ -1,0 +1,353 @@
+
+body {
+    
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    background: black;
+    margin: 0;
+  }
+
+  
+  canvas {
+    width: 100%;
+    height: 100%;
+  }
+
+
+/* Import a font */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+
+/* Set the background color for my page: */
+
+
+/*Button*/
+
+#link3{
+    background-color: #f9b700;
+
+    padding:10px;
+    
+    border:2px;
+    border-color:#000000;
+    border-style: solid;
+    border-radius: 10px;
+
+    font-family: 'Chivo', sans-serif;
+    font-weight:700;
+    color:#0f07f7;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    
+}
+
+#link3:hover{
+
+    background-color: #ece220;
+
+    border:2px;
+    border-color:#5A5A5A;
+    border-style: solid;
+    
+}
+
+/* Book on colour = Joseph Albers - Interaction of Colour */
+
+body{
+    background-color: rgb(225, 58, 58);
+ }
+
+
+/* Choose the appearance of the tags, h1, h3 and p: */
+h1, h2, h3, p{
+    color:rgb(0, 0, 0);
+    font-family: 'Chivo', sans-serif;
+    text-align: center;
+}
+    
+.myWeek1{
+    margin: auto;
+    max-width: 1000px;
+    background-color: rgb(255, 253, 253);
+
+      
+    border-width: 6px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: rgb(49, 183, 255);
+}
+
+.myWeek5{    
+    margin: auto;
+    background-color: rgb(220, 220, 220);
+    display: block;
+    margin-bottom: 2px;
+      
+}
+
+/* Set the apperance of the class, chart */
+
+#Chart1{
+    background-color: rgb(255, 255, 255);
+    width: 380px;
+    border-width: 2px;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: grey;
+        text-align: center;
+        display: flex; 
+        margin: 0 auto;
+        align-items:flex-end;
+        border-bottom: 30px;
+        margin-bottom: 30px;}
+  
+#Chart2{
+    background-color: rgb(255, 255, 255);
+    width: 380px;
+    border-width: 2px;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: grey;
+        text-align: center;
+        display: flex; 
+        margin: 0 auto;
+        align-items:flex-end;
+        border-bottom: 30px;
+        margin-bottom: 30px;}
+
+    
+#Chart3{
+            background-color: rgb(255, 255, 255);
+           width: 380px;
+           border-width: 2px;
+               border-style: solid;
+               border-radius: 10px;
+               border-color: grey;
+               text-align: center;
+               display: flex; 
+               margin: 0 auto;
+               align-items:flex-end;
+               border-bottom: 30px;
+               margin-bottom: 30px;}
+
+
+            
+#Chart4{
+    background-color: rgb(255, 255, 255);
+    width: 380px;
+    border-width: 2px;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: grey;
+        text-align: center;
+        display: flex; 
+        margin: 0 auto;
+        align-items:flex-end;
+        border-bottom: 30px;
+        margin-bottom: 30px;}
+
+
+#Chart5{
+    background-color: rgb(255, 255, 255);
+    width: 380px;
+    border-width: 2px;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: grey;
+        text-align: center;
+        display: flex; 
+        margin: 0 auto;
+        align-items:flex-end;
+        border-bottom: 30px;
+        margin-bottom: 30px;}
+
+ #Chart6{
+    background-color: rgb(255, 255, 255);
+    width: 380px;
+    border-width: 2px;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: grey;
+        text-align: center;
+        display: flex; 
+        margin: 0 auto;
+        align-items:flex-end;
+        border-bottom: 30px;
+        margin-bottom: 30px;}
+
+ #Chart7{
+    background-color: rgb(255, 255, 255);
+    width: 380px;
+    border-width: 2px;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: grey;
+        text-align: center;
+        display: flex; 
+        margin: 0 auto;
+        align-items:flex-end;
+        border-bottom: 30px;
+        margin-bottom: 30px;}
+    
+
+
+
+
+
+
+
+
+
+.chartio{
+    align-items: center;
+    background-color: white;
+    width:250px;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 5px;
+    border-color: #094ae0;
+    margin-left: 50px;
+    margin-bottom: 50px;
+
+}
+
+#linkonsapi{
+    border:px;
+    border-color:black;
+    border-style: solid;
+    border-bottom: 30px;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-weight:700;
+    color:black;
+    text-decoration: none;
+
+    
+}
+
+#linkonsapi{ display: block;text-align: center;}
+
+#linkonsapi:hover{
+
+    background-color: rgba(30, 197, 223, 0.148);
+
+    border:2px;
+    border-color:black;
+    border-style: solid;
+    
+}
+
+
+
+#Chart17{
+    background-color: rgb(255, 255, 255);
+       width: 650px;
+        border-width: 2px;
+         border-style: solid;
+          border-radius: 15px;
+        border-color: grey;
+         text-align: center;
+             display: flex; 
+             margin: 0 auto;
+           align-items:flex-end;
+       border-bottom: 50px;
+         margin-bottom: 50px;}
+
+
+
+
+     #Chart18{
+        background-color: rgb(255, 255, 255);
+       width: 650px;
+        border-width: 2px;
+         border-style: solid;
+          border-radius: 15px;
+        border-color: grey;
+         text-align: center;
+             display: flex; 
+             margin: 0 auto;
+           align-items:flex-end;
+       border-bottom: 50px;
+         margin-bottom: 50px;}
+
+
+         #Chart19{
+            background-color: rgb(255, 255, 255);
+           width: 380px;
+           border-width: 2px;
+               border-style: solid;
+               border-radius: 10px;
+               border-color: grey;
+               text-align: center;
+               display: flex; 
+               margin: 0 auto;
+               align-items:flex-end;
+               border-bottom: 30px;
+               margin-bottom: 30px;}
+        
+        
+        
+        
+             #Chart20{
+                background-color: rgb(255, 255, 255);
+           width: 380px;
+           border-width: 2px;
+               border-style: solid;
+               border-radius: 10px;
+               border-color: grey;
+               text-align: center;
+               display: flex; 
+               margin: 0 auto;
+               align-items:flex-end;
+               border-bottom: 30px;
+               margin-bottom: 30px;}
+
+
+
+#Chart21{
+    background-color: rgb(255, 255, 255);
+    width: 380px;
+    border-width: 2px;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: grey;
+        text-align: center;
+        display: flex; 
+        margin: 0 auto;
+        align-items:flex-end;
+        border-bottom: 30px;
+        margin-bottom: 30px;}
+
+             #Chart22{
+                background-color: rgb(255, 255, 255);
+               width: 650px;
+                border-width: 2px;
+                 border-style: solid;
+                  border-radius: 15px;
+                border-color: grey;
+                 text-align: center;
+                     display: flex; 
+                     margin: 0 auto;
+                   align-items:flex-end;
+               border-bottom: 50px;
+                 margin-bottom: 50px;}
+#Chart23{
+    background-color: rgb(255, 255, 255);
+    width: 380px;
+    border-width: 2px;
+        border-style: solid;
+        border-radius: 10px;
+        border-color: grey;
+        text-align: center;
+        display: flex; 
+        margin: 0 auto;
+        align-items:flex-end;
+        border-bottom: 30px;
+        margin-bottom: 30px;}
+        
+
+
+    
+
