@@ -1,0 +1,83 @@
+{
+    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+    "title": {
+      "text": "Investment into different sources of renewable energy",
+      "subtitle": [
+        "Investment $Bn into different renewable energy sources 2009-2019.",
+        "Source: REN21"
+      ],
+      "subtitleFontStyle": "italic",
+      "subtitleFontSize": 10,
+      "anchor": "start",
+      "color": "darkblue"
+    },
+    "height": 400,
+    "width": 500,
+    "data": {
+      "url": "https://raw.githubusercontent.com/vrishs/vrishs.github.io/main/InvestmentSource1.csv"
+    },
+    "selection": {
+      "grid": {
+        "type": "interval",
+        "bind": "scales",
+        "on": "[mousedown, window:mouseup] > window:mousemove!",
+        "translate": "[mousedown, window:mouseup] > window:mousemove!",
+        "zoom": "wheel!",
+        "resolve": "global"
+      },
+      "Type": {
+        "type": "single",
+        "fields": ["Energy Source"],
+        "bind": {
+          "input": "select",
+          "options": [
+            null,
+            "Solar power",
+            "Wind power",
+            "Ocean power",
+            "Hydropower <50 MW",
+            "Geothermal",
+            "Biomass and waste-to-energy",
+            "Biofuels"
+          ],
+          "name": "Pick your renewable energy source:"
+        }
+      }
+    },
+    "transform": [{"filter": {"selection": "Type"}}],
+    "mark": {"type": "point", "opacity": 1, "size": 150},
+    "encoding": {
+      "x": {
+        "field": "Year",
+        "type": "temporal",
+        
+        "title": "Year"
+      },
+      "y": {
+        "field": "Investment",
+        "type": "quantitative",
+        "title": "Investment (Bn)"
+      },
+      "size": {
+        "field": "Investment",
+        "type": "quantitative",
+        "title": "Investment",
+        "scale": {"range": [0, 1500]}
+      },
+      "color": {
+        "field": "Energy Source",
+        "type": "nominal",
+        "title": "Energy Source",
+        "scale": {"scheme": "set1"}
+      },
+      "tooltip": [
+        {"field": "Energy Source", "type": "nominal", "title": "Energy Source"},
+        {
+          "field": "Investment",
+          "type": "quantitative",
+          "title": "Investment in billions"
+        },
+        {"field": "Year", "type": "temporal", "title": "Year"}
+      ]
+    }
+  }
