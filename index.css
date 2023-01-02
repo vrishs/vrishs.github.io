@@ -1,6 +1,4 @@
-/* Richard Davies, Data Science for Economists */
 
-/* This is my first proper css file */
 
 
 /* Import a font */
@@ -9,7 +7,7 @@
 
 /* Set the background color for my page: */
 body{
-    background-color: rgb(233, 233, 233);
+    background-color: rgb(225, 58, 58)
  
 }
 
@@ -28,6 +26,7 @@ h1, h3, p{
 }
 
 
+
 /* Set the apperance of the class, chart */
 .chart{
     background-color: orange;
@@ -39,4 +38,34 @@ h1, h3, p{
 
     
 }
+#link3{
+    background-color: #f9b700;
+
+    padding:10px;
     
+    border:2px;
+    border-color:#000000;
+    border-style: solid;
+    border-radius: 10px;
+
+    font-family: 'Chivo', sans-serif;
+    font-weight:700;
+    color:#0f07f7;
+    text-align: center;
+    vertical-align: middle;
+    text-decoration: none;
+    
+}
+
+#link3:hover{
+
+    background-color: #ece220;
+
+    border:2px;
+    border-color:#5A5A5A;
+    border-style: solid;}
+    h1, h2, h3, p{
+        color:rgb(0, 0, 0);
+        font-family: 'Chivo', sans-serif;
+        text-align: center;
+    }
