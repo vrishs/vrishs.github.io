@@ -1,256 +1,227 @@
-body {
-    
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 0;
-    background: black;
-    margin: 0;
-  }
-
-  
-  canvas {
-    width: 100%;
-    height: 100%;
-  }
-
-
-
-/* Import a font */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
-
-
-/* Set the background color for my page: */
-
-
-/*Button*/
-
-#link3{
-    background-color: #f9b700;
-
-    padding:10px;
-    
-    border:2px;
-    border-color:#000000;
-    border-style: solid;
-    border-radius: 10px;
-
-    font-family: 'Chivo', sans-serif;
-    font-weight:700;
-    color:#0f07f7;
-    text-align: center;
-    vertical-align: middle;
-    text-decoration: none;
-    
-}
-
-#link3:hover{
-
-    background-color: #ece220;
-
-    border:2px;
-    border-color:#5A5A5A;
-    border-style: solid;
-    
-}
-
-/* Book on colour = Joseph Albers - Interaction of Colour */
-
-body{
+/* This is the design for my project page */
+/* Background design */ 
+body{ 
     background-color: rgb(225, 58, 58);
- }
-
-
-/* Choose the appearance of the tags, h1, h3 and p: */
-h1, h2, h3, p{
-    color:rgb(0, 0, 0);
-    font-family: 'Chivo', sans-serif;
-    text-align: center;
-}
-    
-.myWeek1{
     margin: auto;
+    overflow: scroll;
     max-width: 1000px;
-    background-color: rgb(255, 253, 253);
-
-      
-    border-width: 6px;
-    border-style: solid;
-    border-radius: 10px;
-    border-color: rgb(49, 183, 255);
+    text-align:center; 
+    vertical-align:middle;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+ 
 }
 
-.myWeek5{    
-    margin: auto;
-    background-color: rgb(220, 220, 220);
-    display: block;
-    margin-bottom: 2px;
-      
-}
+/* BUTTONS */
 
-/* Set the apperance of the class, chart */
+.link{
+  background-color: #f9b700;
 
-#Chart1{
-    background-color: rgb(255, 255, 255);
-    width: 380px;
-    border-width: 2px;
-        border-style: solid;
-        border-radius: 10px;
-        border-color: grey;
-        text-align: center;
-        display: flex; 
-        margin: 0 auto;
-        align-items:flex-end;
-        border-bottom: 30px;
-        margin-bottom: 30px;}
+  padding:10px;
   
-#Chart2{
-    background-color: rgb(255, 255, 255);
-    width: 380px;
-    border-width: 2px;
-        border-style: solid;
-        border-radius: 10px;
-        border-color: grey;
-        text-align: center;
-        display: flex; 
-        margin: 0 auto;
-        align-items:flex-end;
-        border-bottom: 30px;
-        margin-bottom: 30px;}
+  border:2px;
+  border-color:#000000;
+  border-style: solid;
+  border-radius: 10px;
 
-    
-#Chart3{
-            background-color: rgb(255, 255, 255);
-           width: 380px;
-           border-width: 2px;
-               border-style: solid;
-               border-radius: 10px;
-               border-color: grey;
-               text-align: center;
-               display: flex; 
-               margin: 0 auto;
-               align-items:flex-end;
-               border-bottom: 30px;
-               margin-bottom: 30px;}
+  font-family:  'Chivo', sans-serif; 
+  font-weight:700;
+  color:#0f07f7;
+  text-decoration: none;
+}
+.links{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+a{
+  border: 1px;
+  border-color: black;
+  border-style: solid;
+  margin: auto;
+}
 
+.link:hover{
 
-            
-#Chart4{
-    background-color: rgb(255, 255, 255);
-    width: 380px;
-    border-width: 2px;
-        border-style: solid;
-        border-radius: 10px;
-        border-color: grey;
-        text-align: center;
-        display: flex; 
-        margin: 0 auto;
-        align-items:flex-end;
-        border-bottom: 30px;
-        margin-bottom: 30px;}
+  background-color: #ece220;
 
+  border:2px;
+  border-color:#5A5A5A;
+  border-style: solid;
+  
+}
 
-#Chart5{
-    background-color: rgb(255, 255, 255);
-    width: 380px;
-    border-width: 2px;
-        border-style: solid;
-        border-radius: 10px;
-        border-color: grey;
-        text-align: center;
-        display: flex; 
-        margin: 0 auto;
-        align-items:flex-end;
-        border-bottom: 30px;
-        margin-bottom: 30px;}
+.smallbutton{
+  background-color: white;
+  border: none;
+  padding: 5px 15px;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  font-size: 15px;
+  border-width: 2px;
+  border-style: solid;
+  border-color: #4484CE;
+  border-radius: 5px;
+  width: 100px;
+  margin: 10px 10px 20px 10px;
+  font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+  cursor: pointer;
+  transition: background-color 1s ease;
+}
 
- #Chart6{
-    background-color: rgb(255, 255, 255);
-    width: 380px;
-    border-width: 2px;
-        border-style: solid;
-        border-radius: 10px;
-        border-color: grey;
-        text-align: center;
-        display: flex; 
-        margin: 0 auto;
-        align-items:flex-end;
-        border-bottom: 30px;
-        margin-bottom: 30px;}
+.smallbutton:hover{
+  background-color: transparent;
+  border-color: transparent;
+}
 
- #Chart7{
-    background-color: rgb(255, 255, 255);
-    width: 380px;
-    border-width: 2px;
-        border-style: solid;
-        border-radius: 10px;
-        border-color: grey;
-        text-align: center;
-        display: flex; 
-        margin: 0 auto;
-        align-items:flex-end;
-        border-bottom: 30px;
-        margin-bottom: 30px;}
+.buttoncontainer{
+  text-align: center;
+  align-items: flex-start;
+  display: inline-block;
+  width: 1000px;
+  margin: 0px 0px 20px 0px;
+}    
 
+/* FONTS */
 
-        #Chart8{
-            background-color: rgb(255, 255, 255);
-            width: 380px;
-            border-width: 2px;
-                border-style: solid;
-                border-radius: 10px;
-                border-color: grey;
-                text-align: center;
-                display: flex; 
-                margin: 0 auto;
-                align-items:flex-end;
-                border-bottom: 30px;
-                margin-bottom: 30px;}
-    
+.topnav a.active {
+  background-color: #4484CE;
+  color: white;
+}
 
-        .chartio{
-            align-items: center;
-            background-color: white;
-            width:250px;
-            border-width: 2px;
-            border-style: solid;
-            border-radius: 5px;
-            border-color: #094ae0;
-            margin-left: 50px;
-            margin-bottom: 50px;
-        
-        }
-        
-        #linkonsapi{
-            border:px;
-            border-color:black;
-            border-style: solid;
-            border-bottom: 30px;
-            border-radius: 5px;
-            padding: 10px;
-            font-family: 'Roboto', sans-serif;
-            font-weight:700;
-            color:black;
-            text-decoration: none;
-        
-            
-        }
-        
-        #linkonsapi{ display: block;text-align: center;}
-        
-        #linkonsapi:hover{
-        
-            background-color: rgba(30, 197, 223, 0.148);
-        
-            border:2px;
-            border-color:black;
-            border-style: solid;
-            
-        }
+.container{
+    background-color: white;
+    text-align: center;
+} 
+
+.containergraph{
+    background-color: wheat;
+    justify-content: center;
+}
+
+p{
+    color:white;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+h1{
+    color: white;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    font-size: 50px;
+}
+
+h2{
+    color: white;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+h3{
+    color: white;
+    font-family:  -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+}
+
+.title{
+    background-color: transparent;
+    text-align: center;
+    margin: 20px 0px;
+}
+
+.bigtitle{
+    background-color: transparent;
+    text-align: center;
+    margin: 20px 0px 40px 0px;
+}
 
 
+/*charts*/
 
+.chart1{
+  background-color: white;
+  width: 800px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: darkblue;
+  text-align: center;
+  display: block; 
+  margin: 0 auto;
 
+}
 
+.chart2{
+  background-color: white;
+  width: 700px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: darkblue;
+  text-align: center;
+  display: block; 
+  margin: 0 auto;
 
+}
 
+.chart3{
+  background-color: white;
+  width: 600px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: darkblue;
+  text-align: center;
+  display: block; 
+  margin: 0 auto;
 
+}
 
+.chart4{
+  background-color: white;
+  width: 700px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: darkblue;
+  text-align: center;
+  display: block; 
+  margin: 0 auto;
+
+}
+
+.chart5{
+  background-color: white;
+  width: 700px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: darkblue;
+  text-align: center;
+  display: block; 
+  margin: 0 auto;
+
+}
+
+.chart6{
+  background-color: white;
+  width: 700px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: darkblue;
+  text-align: center;
+  display: block; 
+  margin: 0 auto;
+
+}
+
+.chart7{
+  background-color: white;
+  width: 600px;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 8px;
+  border-color: darkblue;
+  text-align: center;
+  display: block; 
+  margin: 0 auto;
+
+}
