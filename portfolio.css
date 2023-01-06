@@ -24,18 +24,18 @@ body {
 /*Button*/
 
 .link{
-    background-color: #f9b700;
+    background-color: #e45763;
   
     padding:10px;
     
     border:2px;
-    border-color:#000000;
+    border-color:white;
     border-style: solid;
     border-radius: 10px;
   
     font-family:  'Chivo', sans-serif; 
     font-weight:700;
-    color:#0f07f7;
+    color: white;
     text-decoration: none;
   }
   .links{
@@ -52,7 +52,8 @@ body {
   
   .link:hover{
   
-    background-color: #ece220;
+    background-color: white;
+    color: #e45763;
   
     border:2px;
     border-color:#5A5A5A;
