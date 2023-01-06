@@ -11,11 +11,14 @@
 /* Set the background color for my page: */
 body {
     background: #0884e25b;
+
+    
   }
   
+  
   .webpage {
-    border-radius: 1em;
-    border: 2em solid #fff;
+    border-radius: 0.5em;
+    border: .5em solid #fff;
     background: #e45763;
     background: #e25865 url(//cssanimation.rocks/screen/images/screen_bg.png) no-repeat top left;
     background-size: 98% auto;
@@ -49,8 +52,8 @@ body {
   
   .hover-message {
     background: rgba(0, 0, 0, 0.5);
-    border-radius:1em;
-    position: absolute;
+    border-radius:0.5em;
+    position: relative;
     top: 4em;
     right: 4em;
     bottom: 4em;
@@ -74,11 +77,21 @@ body {
 
 
 /* Choose the appearance of the tags, h1, h3 and p: */
-h1, h3, p{
-    color:rgb(17, 17, 17);
-    font-family: 'Roboto', sans-serif;
-    text-align: center;
+h1{
+  font-family: 'Codystar', cursive;
+  text-align: center;
+  color: #e45763;
+  font-size: 45px;
+
+  
 }
+
+h2{
+  font-family: 'Codystar', cursive;
+  text-align: center;
+  color:#e45763;
+  font-size:20px;}
+
     
 .myWeek1{
     margin: auto;
@@ -121,12 +134,12 @@ h1, h3, p{
 #link3:hover{
 
     background-color: #ece220;
-
+    text-align: center;
     border:2px;
     border-color:#5A5A5A;
     border-style: solid;}
-    h1, h2, h3, p{
+     p{
         color:rgb(0, 0, 0);
-        font-family: 'Chivo', sans-serif;
+        font-family: 'Codystar', cursive;
         text-align: center;
     }
