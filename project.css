@@ -1,7 +1,7 @@
 /* This is the design for my project page */
 /* Background design */ 
 body{ 
-    background-color: rgb(225, 58, 58);
+    background-color: #e45763;
     margin: auto;
     overflow: scroll;
     max-width: 1000px;
