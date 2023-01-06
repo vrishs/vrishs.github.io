@@ -23,34 +23,42 @@ body {
 
 /*Button*/
 
-#link3{
+.link{
     background-color: #f9b700;
-
+  
     padding:10px;
     
     border:2px;
     border-color:#000000;
     border-style: solid;
     border-radius: 10px;
-
-    font-family: 'Chivo', sans-serif;
+  
+    font-family:  'Chivo', sans-serif; 
     font-weight:700;
     color:#0f07f7;
-    text-align: center;
-    vertical-align: middle;
     text-decoration: none;
-    
-}
-
-#link3:hover{
-
+  }
+  .links{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  a{
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+    margin: auto;
+  }
+  
+  .link:hover{
+  
     background-color: #ece220;
-
+  
     border:2px;
     border-color:#5A5A5A;
     border-style: solid;
     
-}
+  }
 
 /* Book on colour = Joseph Albers - Interaction of Colour */
 
@@ -75,7 +83,7 @@ h1, h2, h3, p{
     border-width: 6px;
     border-style: solid;
     border-radius: 10px;
-    border-color: rgb(49, 183, 255);
+    border-color: #0884e25b;
 }
 
 .myWeek5{    
@@ -93,8 +101,8 @@ h1, h2, h3, p{
     width: 380px;
     border-width: 2px;
         border-style: solid;
-        border-radius: 10px;
-        border-color: grey;
+        border-radius: 15px;
+        border-color: rgb(255, 255, 255);
         text-align: center;
         display: flex; 
         margin: 0 auto;
@@ -108,7 +116,7 @@ h1, h2, h3, p{
     border-width: 2px;
         border-style: solid;
         border-radius: 10px;
-        border-color: grey;
+        border-color: white;
         text-align: center;
         display: flex; 
         margin: 0 auto;
@@ -123,7 +131,7 @@ h1, h2, h3, p{
            border-width: 2px;
                border-style: solid;
                border-radius: 10px;
-               border-color: grey;
+               border-color: white;
                text-align: center;
                display: flex; 
                margin: 0 auto;
@@ -139,7 +147,7 @@ h1, h2, h3, p{
     border-width: 2px;
         border-style: solid;
         border-radius: 10px;
-        border-color: grey;
+        border-color: white;
         text-align: center;
         display: flex; 
         margin: 0 auto;
@@ -154,7 +162,7 @@ h1, h2, h3, p{
     border-width: 2px;
         border-style: solid;
         border-radius: 10px;
-        border-color: grey;
+        border-color: white;
         text-align: center;
         display: flex; 
         margin: 0 auto;
@@ -168,7 +176,7 @@ h1, h2, h3, p{
     border-width: 2px;
         border-style: solid;
         border-radius: 10px;
-        border-color: grey;
+        border-color: white;
         text-align: center;
         display: flex; 
         margin: 0 auto;
@@ -182,7 +190,7 @@ h1, h2, h3, p{
     border-width: 2px;
         border-style: solid;
         border-radius: 10px;
-        border-color: grey;
+        border-color: white;
         text-align: center;
         display: flex; 
         margin: 0 auto;
@@ -206,7 +214,7 @@ h1, h2, h3, p{
     border-width: 2px;
     border-style: solid;
     border-radius: 5px;
-    border-color: #094ae0;
+    border-color: #0884e25b;
     margin-left: 50px;
     margin-bottom: 50px;
 
@@ -247,7 +255,7 @@ h1, h2, h3, p{
         border-width: 2px;
          border-style: solid;
           border-radius: 15px;
-        border-color: grey;
+        border-color: white;
          text-align: center;
              display: flex; 
              margin: 0 auto;
@@ -264,7 +272,7 @@ h1, h2, h3, p{
         border-width: 2px;
          border-style: solid;
           border-radius: 15px;
-        border-color: grey;
+        border-color: white;
          text-align: center;
              display: flex; 
              margin: 0 auto;
@@ -279,7 +287,7 @@ h1, h2, h3, p{
            border-width: 2px;
                border-style: solid;
                border-radius: 10px;
-               border-color: grey;
+               border-color: white;
                text-align: center;
                display: flex; 
                margin: 0 auto;
@@ -296,7 +304,7 @@ h1, h2, h3, p{
            border-width: 2px;
                border-style: solid;
                border-radius: 10px;
-               border-color: grey;
+               border-color: white;
                text-align: center;
                display: flex; 
                margin: 0 auto;
@@ -312,7 +320,7 @@ h1, h2, h3, p{
     border-width: 2px;
         border-style: solid;
         border-radius: 10px;
-        border-color: grey;
+        border-color: white;
         text-align: center;
         display: flex; 
         margin: 0 auto;
@@ -339,7 +347,7 @@ h1, h2, h3, p{
     border-width: 2px;
         border-style: solid;
         border-radius: 10px;
-        border-color: grey;
+        border-color: white;
         text-align: center;
         display: flex; 
         margin: 0 auto;
