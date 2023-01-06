@@ -21,7 +21,7 @@ body {
     width: 40em;
     height: 30em;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 50%;
     transform: translate(-50%, -50%);
     animation: scroll 5s infinite cubic-bezier(.52, -0.39, .3, 1.43);
@@ -86,7 +86,7 @@ h2{
   font-family: 'Codystar', cursive;
   text-align: center;
   color:#e45763;
-  font-size:20px;}
+  font-size:30px;}
 
     
 .myWeek1{
