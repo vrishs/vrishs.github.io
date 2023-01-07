@@ -1,38 +1,46 @@
 {
-    "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-    "title": {
-      "text": "Electric Car Stocks",
-      "subtitle": [
-        "Price changes of electric car companies stocks clustered",
-        "Polestar (Orange), Ford (Blue), Tesla (Red), Li Auto (Black),",
-        "Source: Yahoo Finance"
-      ],
-      "subtitleFontStyle": "italic",
-      "subtitleFontSize": 10,
-      "anchor": "start",
-      "color": "black"
-    },
-    "data": {
-      "url": "https://raw.githubusercontent.com/vrishs/vrishs.github.io/main/CaRstocks1.csv"
-    },
-    "repeat": {"layer": [ "PSNY_z_norm", "FORD_z_norm",  "TSLA_z_norm", "LI_z_norm","LCID_z_norm"]},
-    "spec": {
-      "height": 300,
-      "width": 300,
-      "mark": {"type": "line", "strokeWidth": 0.9},
-      "encoding": {
-        "x": {"field": "Date", "type": "temporal"},
-        "y": {
-          "field": {"repeat": "layer"},
-          "type": "quantitative",
-          "title": null
-        },
-        "color": {
-          "datum": {"repeat": "layer"},
-          "scale": {"range": ["#f68c22", "#1351d8", "#cc0000", "black","darkgrey"]}
-          
-          
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": {
+    "text": "Electric Car Stocks",
+    "subtitle": [
+      "Price changes of electric car companies stocks clustered",
+      "Polestar (Orange), Ford (Blue), Tesla (Red), Li Auto (Black), Lucid (Grey)",
+      "Source: Yahoo Finance"
+    ],
+    "subtitleFontStyle": "italic",
+    "subtitleFontSize": 10,
+    "anchor": "start",
+    "color": "black"
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/vrishs/vrishs.github.io/main/CaRstocks1-2.csv"
+  },
+  "repeat": {
+    "layer": [
+      "PSNY_z_norm",
+      "FORD_z_norm",
+      "TSLA_z_norm",
+      "LI_z_norm",
+      "LCID_z_norm"
+    ]
+  },
+  "spec": {
+    "height": 300,
+    "width": 300,
+    "mark": {"type": "line", "strokeWidth": 0.9},
+    "encoding": {
+      "x": {"field": "Date", "type": "temporal"},
+      "y": {
+        "field": {"repeat": "layer"},
+        "type": "quantitative",
+        "title": null
+      },
+      "color": {
+        "datum": {"repeat": "layer"},
+        "scale": {
+          "range": ["#f68c22", "#1351d8", "#cc0000", "black", "darkgrey"]
         }
       }
     }
   }
+}
