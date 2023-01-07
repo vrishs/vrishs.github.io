@@ -6,6 +6,7 @@
     },
    "title": {
         "text": "LFS: Econ inactive: Students: UK: Male: %: SA",
+       "fontSize":"10",
         "anchor": "start",
         "color": "black"
       },
