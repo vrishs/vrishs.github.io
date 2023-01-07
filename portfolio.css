@@ -357,17 +357,18 @@ h1, h2, h3, p{
         margin-bottom: 30px;}
         
 
-   img {  background-color: white;
-            width: auto;
-            border-width: 5px;
-            border-radius: 10px;
-            border-style:solid;
-            border-color: #ffffff;
-            margin-left: -20px;
-            overflow: auto;
-            place-items: center;
-            text-align: center;
-            
+img {  background-color: rgb(255, 255, 255);
+            width: 380px;
+            border-width: 2px;
+                border-style: solid;
+                border-radius: 10px;
+                border-color: white;
+                text-align: center;
+                display: flex; 
+                margin: 0 auto;
+                align-items:flex-end;
+                border-bottom: 30px;
+                margin-bottom: 30px;
             }
     
 
