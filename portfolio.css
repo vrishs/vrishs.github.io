@@ -357,6 +357,17 @@ h1, h2, h3, p{
         margin-bottom: 30px;}
         
 
+   img {  background-color: white;
+            width: auto;
+            border-width: 5px;
+            border-radius: 10px;
+            border-style:solid;
+            border-color: #7a6a6a;
+            margin-left: -20px;
+            overflow: auto;
+            
+            }
+
 
     
 
