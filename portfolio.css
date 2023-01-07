@@ -69,12 +69,22 @@ body{
 
 
 /* Choose the appearance of the tags, h1, h3 and p: */
-h1, h2, h3, p{
+h1{
+    color:#e45763;
+    font-family: 'Codystar', cursive;
+    text-align: center;
+    font-size: 50px;
+    
+}
+
+
+
+
+h2, h3, p{
     color:rgb(0, 0, 0);
     font-family: 'Chivo', sans-serif;
     text-align: center;
 }
-    
 .myWeek1{
     margin: auto;
     max-width: 1000px;
