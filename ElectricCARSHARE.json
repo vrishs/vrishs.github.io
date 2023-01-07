@@ -18,7 +18,7 @@
     },
     "height": 500,
     "width": "container",
-    "mark": {"type": "bar"},
+    "mark": {"type": "bar", "color": "rgb(0,47,167)"},
     "transform": [{"filter": "datum.Year==year"}],
     "params": [
       {
