@@ -55,6 +55,7 @@ body {
     background-color: white;
     color: #e45763;
     padding: 11px;
+  
     border:2px;
     border-color:#5A5A5A;
     border-style: solid;
@@ -85,6 +86,7 @@ h2, h3, p{
     font-family: 'Chivo', sans-serif;
     text-align: center;
 }
+    
 .myWeek1{
     margin: auto;
     max-width: 1000px;
@@ -345,7 +347,7 @@ h2, h3, p{
                 border-width: 2px;
                  border-style: solid;
                   border-radius: 15px;
-                border-color: grey;
+                border-color: rgb(255, 255, 255);
                  text-align: center;
                      display: flex; 
                      margin: 0 auto;
@@ -367,7 +369,7 @@ h2, h3, p{
         margin-bottom: 30px;}
         
 
-img {  background-color: rgb(255, 255, 255);
+        img {  background-color: rgb(255, 255, 255);
             width: 600px;
             border-width: 2px;
                 border-style: solid;
@@ -378,9 +380,8 @@ img {  background-color: rgb(255, 255, 255);
                 margin: 0 auto;
                 align-items:flex-end;
                 border-bottom: 30px;
-                margin-bottom: 30px;
-            }
-    
-
+                margin-bottom: 30px;}
+            
+            
     
 
